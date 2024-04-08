@@ -1,14 +1,15 @@
 import React from 'react'
 
 export default function App3() {
-    function greet(name) {
-        alert(name)
+    function greet(name,digi) {
+        alert(name,digi)
+        
     }
   return (
     <div>
-        <button onClick={()=>greet('john')}>Click</button>
-        <br></br>
-        <button onClick={()=>greet('Naveen')}>Click</button>
+        <button onClick={()=>greet('john','javadeveloper')}>Details</button>
+        <br></br> <br></br>
+        <button onClick={()=>greet('Naveen','python web developer')}>details</button>
     </div>
   )
 }
